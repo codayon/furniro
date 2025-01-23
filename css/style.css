@@ -1,12 +1,36 @@
-<!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-  </body>
-</html>
+/* common selectors 1 */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+/* common selectors 0 */
+/* header selectors 1 */
+#header_part {
+}
+/* header selectors 0 */
+/* banner selectors 1 */
+#banner_part {
+}
+/* banner selectors 0 */
