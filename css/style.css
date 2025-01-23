@@ -56,12 +56,12 @@ p {
 /* header selectors 0 */
 /* banner selectors 1 */
 #banner_part {
-  padding-top: 230px;
-  padding-bottom: 199px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   background: url(../image/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 199px;
+  padding-top: 230px;
 }
 .banner_content {
   width: 50%;
