@@ -132,8 +132,8 @@ p {
   margin: 0px auto 40px auto;
 }
 .rooms-flex {
-display: flex;
-justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .rooms {
   height: 480px;
