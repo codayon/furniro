@@ -1,0 +1,138 @@
+/* common selectors 1 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+.common-header h2 {
+  width: 300px;
+  height: 48px;
+  font-size: 32px;
+  color: #333333;
+  font-weight: 700;
+  text-align: center;
+  margin: 40px auto 0px auto;
+}
+.common-header p {
+  width: 559px;
+  height: 29px;
+  font-size: 20px;
+  color: #666666;
+  font-weight: 400;
+  margin: 0px auto 40px auto;
+}
+/* common selectors 0 */
+/* header selectors 1 */
+.header-flex {
+  display: flex;
+  margin: 30px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  width: 185px;
+  height: 41px;
+}
+.menu {
+  width: 430px;
+  height: 24px;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: auto;
+  justify-content: space-between;
+}
+.menu a {
+  color: black;
+  font-size: 16px;
+}
+.header-icons {
+  width: 243px;
+  height: 27px;
+  display: flex;
+  justify-content: space-between;
+}
+/* header selectors 0 */
+/* footer section 1 */
+.footer-flex {
+    display: flex;
+    margin: 50px 0px 0px 0px;
+  }
+  .footer-section-one h1 {
+    font-size: 24px;
+  }
+  .footer-section-one p {
+    color: #9f9f9f;
+    font-size: 16px;
+    margin-top: 65px;
+    line-height: normal;
+  }
+  .footer-section-two {
+    display: flex;
+    margin-left: 110px;
+    column-gap: 110px;
+    row-gap: 67px;
+  }
+  .section-two-list a {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.8;
+  }
+  .section-two-list li {
+    margin-bottom: 60px;
+  }
+  .section-two-list p {
+    color: #9f9f9f;
+  }
+  .footer-section-three {
+    margin-left: 100px;
+  }
+  .footer-section-three p {
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.8;
+  }
+  .email-input {
+    display: inline;
+    margin-top: 60px;
+    background: transparent;
+    border: none;
+    padding: 5px 5px 5px 3px;
+    border-bottom: 2px solid black;
+  }
+  .footer-section-three span {
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    padding: 5px 5px 5px 0px;
+    margin-left: 30px;
+  }
+  #footer h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 50px 0;
+  }
+  /* footer section 0 */
