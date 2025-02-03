@@ -255,7 +255,7 @@ p {
 .product-bottom-button a {
   color: black;
   font-size: 20;
-  padding: 18px 25px;
+  padding: 16px 25px;
   font-weight: 400;
   display: inline-block;
 }
@@ -274,12 +274,40 @@ p {
 #product-bottom-button-next a {
   color: black;
   font-size: 20;
-  padding: 18px 25px;
+  padding: 16px 25px;
   font-weight: 400;
   display: inline-block;
   font-weight: 300;
 }
 /* products section 0 */
+
+/* service section 1 */
+#service {
+  background: #faf3ea;
+}
+.service-item {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: space-between;
+  display: flex;
+}
+.service-item-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section-item-text {
+  margin-left: 10px;
+  color: #242424;
+}
+.section-item-text h1 {
+  margin-top: 7px;
+}
+.section-item-text h3 {
+  margin-top: 13px;
+  color: #898989;
+}
+/* service section 1 */
 
 /* footer section 1 */
 .footer-flex {
